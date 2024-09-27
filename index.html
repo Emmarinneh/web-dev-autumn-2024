@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Washera Academy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <!-- Navigation -->
+        <nav>
+            <img src="assets/images/Emma-Rinneheimo.jpg" alt="Logo" class="logo">
+            <ul id="menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero Text -->
+        <header id="top">
+            <h2>Welcome to my page!</h2>
+            <h1>Look what I created</h1>
+        </header>
+    </div>
+
+        <!-- CLASS 27.9.2024 -->  
+        <div class="carousel-container">
+            <div class="carousel-slide">
+              <img src="assets/images/Paimio-sanatorium-01.jpg" alt="Image 1">
+              <img src="assets/images/Paimio-sanatorium-02.jpg" alt="Image 2">
+              <img src="assets/images/Paimio-sanatorium-03.jpg" alt="Image 3">
+            </div>
+            <button id="prevBtn">Prev</button>
+            <button id="nextBtn">Next</button>
+          </div>
+          
+    <div>
+
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <div class="flex-container">
+            <div class="container" id="about">
+                <h2>About</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt architecto nulla perspiciatis harum molestias corporis doloremque. Facilis sed, optio hic, asperiores consectetur temporibus suscipit dignissimos dolores quibusdam quis ut quos.</p>
+            </div>
+
+            <div class="container" id="projects">
+                <h2>Projects</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt architecto nulla perspiciatis harum molestias corporis doloremque. Facilis sed, optio hic, asperiores consectetur temporibus suscipit dignissimos dolores quibusdam quis ut quos.</p>
+            </div>
+
+            <div class="container" id="contact">
+                <h2>Contact</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt architecto nulla perspiciatis harum molestias corporis doloremque. Facilis sed, optio hic, asperiores consectetur temporibus suscipit dignissimos dolores quibusdam quis ut quos.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Wavy Divider -->
+    <section class="wave-section">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="rgb(251, 210, 177)" fill-opacity="1" d="M0,224L30,213.3C60,203,120,181,180,165.3C240,149,300,139,360,160C420,181,480,235,540,245.3C600,256,660,224,720,186.7C780,149,840,107,900,96C960,85,1020,107,1080,122.7C1140,139,1200,149,1260,144C1320,139,1380,117,1410,106.7L1440,96L1440,0L0,0Z"></path>
+        </svg>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="image-form-section">
+        <div class="image-container">
+            <img src="https://64.media.tumblr.com/14dd23edce4771b903cdb0be875a2abe/638ac217053e2db7-09/s500x750/3ccd27315d4f3961b29a91e15f463f24fbd75e9d.pnj" alt="Phone-image">
+        </div>        
+        <div class="form-container">
+            <h2>Give us a call</h2>
+            <h1>Contact Us</h1>
+            <form action="/submit-form" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright &copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+
+
+
+</body>
+
+</html>
